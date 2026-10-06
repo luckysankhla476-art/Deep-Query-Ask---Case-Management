@@ -7,7 +7,7 @@
 
 ## 🔗 Quick Links
 
-* 🎥 **[Watch Project Demo Video]([https://drive.google.com/file/d/130M2bfKV4leQtX0cVwDM8rQhlGsmc3zJ/view?usp=sharing](https://drive.google.com/file/d/130M2bfKV4leQtX0cVwDM8rQhlGsmc3zJ/view?usp=sharing))**
+* 🎥 **[Watch Project Demo Video]([https://drive.google.com/file/d/130M2bfKV4leQtX0cVwDM8rQhlGsmc3zJ/view?usp=sharing](https://drive.google.com/file/d/130M2bfKV4leQtX0cVwDM8rQhlGsmc3zJ/view?usp=sharing)**
 * 📄 **[View BRD / FRD Documentation](https://drive.google.com/file/d/1xHUfXWqy87N_-hctoAGukCMQ-r_4qPQT/view?usp=drivesdk)**
 
 ---
