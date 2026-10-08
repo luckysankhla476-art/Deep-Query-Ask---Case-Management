@@ -1,11 +1,10 @@
-# Deep Query Ask – Case Management System
+# Deep Query Ask – Case Management System:
 
-> **Salesforce Service Cloud Implementation & Business Analysis Project**  
-> An end-to-end customer support solution built on Salesforce to automate case intake, streamline agent assignment, and improve resolution time (SLA).
+> Deep Query Ask – Case Management is a Salesforce Service Cloud project designed to standardize and automate customer case management. The project addresses common service challenges such as manual case tracking, limited visibility, inconsistent workload distribution, missing SLA monitoring, and delayed customer communication.
 
 ---
 
-## Quick Links
+## Quick Links:
 
 * 🎥 [Watch Project Demo Video](https://drive.google.com/file/d/130M2bfKV4leQtX0cVwDM8rQhlGsmc3zJ/view?usp=sharing)
 
@@ -13,35 +12,37 @@
 
 ---
 
-## 1. Project Overview
+## 1. Project Objective:
 
-Manual case tracking and delayed responses often lead to customer dissatisfaction and missed Service Level Agreements (SLAs). 
-
-This project delivers a centralized **Customer Support Case Management System** using Salesforce Service Cloud. It automates ticket generation, routes inquiries to appropriate support queues, and provides management with real-time operational visibility.
+The primary objective is to create a centralized Salesforce-based Case Management solution that manages customer issues across multiple channels while improving operational efficiency, SLA compliance, and management visibility
 
 ---
 
-## 2. Key Features & Configurations
+## Key Features & Configurations:
 
-* **Automated Case Intake:** Configured Web-to-Case and Email-to-Case channels for seamless customer ticket creation.
-* **Intelligent Routing:** Implemented Case Assignment Rules and Queues to ensure inquiries reach the right support specialists instantly.
-* **Process Automation:** Built Record-Triggered Flows to send automated confirmation emails to customers and trigger notifications on high-priority tickets.
-* **Escalation & SLA Tracking:** Escalation rules configured to notify managers if a critical case remains unresolved beyond target timelines.
-* **Analytics & Reporting:** Custom Support Dashboards and Reports displaying Open Cases, Average Handle Time, and Agent Workload.
-
----
-
-## 3. Business Analyst Deliverables
-
-* **Business Requirements Document (BRD):** Identified business pain points, stakeholder objectives, and scope boundaries.
-* **Functional Requirements Document (FRD):** Mapped functional logic, field mappings, workflow states, and automated trigger conditions
+- Email-to-Case for automatically creating Cases from customer emails.
+- Web-to-Case for capturing customer issues through a web form.
+- Automated Case Assignment based on Case Type and Priority.
+- Case Lifecycle Management with Status transitions and Validation Rules.
+- SLA & Milestone Tracking using Salesforce Entitlements.
+- Case Escalation for high-priority and at-risk Cases.
+- Reports & Dashboards for operational and executive-level visibility.
+- Security & Access Control using OWD, Role Hierarchy, Profiles, and controlled object access.
 
 ---
 
-## 4. Tools & Technologies Used
+## Business Roles:
 
-* **CRM Platform:** Salesforce Service Cloud (Cases, Queues, Assignment Rules, Escalations)
-* **Automation:** Salesforce Flow Builder
-* **Version Control & IDE:** Git, GitHub, Visual Studio Code (Salesforce Extension Pack)
-* **Data Management:** Salesforce Data Loader
-* **Documentation:** Google Docs / PDF Templates                             
+The solution considers different operational personas, including Property Manager, Maintenance Agent, Finance Analyst, and Support Executive/CEO, with access and responsibilities aligned to their business requirements
+
+---
+
+## Testing:
+
+The project includes User Acceptance Testing (UAT) scenarios covering Web-to-Case, Email-to-Case, automated assignment, and high-priority Case escalation to validate the expected business behavior.
+
+---
+
+## Outcome:
+
+Overall, the project demonstrates how Business Analysis, Salesforce Service Cloud configuration, Case Management, declarative automation, SLA management, security, and reporting can be combined to build a structured and scalable customer service solution.
