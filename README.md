@@ -1,11 +1,11 @@
-# 📌 Deep Query Ask – Case Management System
+# Deep Query Ask – Case Management System
 
 > **Salesforce Service Cloud Implementation & Business Analysis Project**  
 > An end-to-end customer support solution built on Salesforce to automate case intake, streamline agent assignment, and improve resolution time (SLA).
 
 ---
 
-## 🔗 Quick Links
+## Quick Links
 
 * 🎥 [Watch Project Demo Video](https://drive.google.com/file/d/130M2bfKV4leQtX0cVwDM8rQhlGsmc3zJ/view?usp=sharing)
 
@@ -13,7 +13,7 @@
 
 ---
 
-## 📖 1. Project Overview
+## 1. Project Overview
 
 Manual case tracking and delayed responses often lead to customer dissatisfaction and missed Service Level Agreements (SLAs). 
 
@@ -21,7 +21,7 @@ This project delivers a centralized **Customer Support Case Management System** 
 
 ---
 
-## 🎯 2. Key Features & Configurations
+## 2. Key Features & Configurations
 
 * **Automated Case Intake:** Configured Web-to-Case and Email-to-Case channels for seamless customer ticket creation.
 * **Intelligent Routing:** Implemented Case Assignment Rules and Queues to ensure inquiries reach the right support specialists instantly.
@@ -31,14 +31,14 @@ This project delivers a centralized **Customer Support Case Management System** 
 
 ---
 
-## 📑 3. Business Analyst Deliverables
+## 3. Business Analyst Deliverables
 
 * **Business Requirements Document (BRD):** Identified business pain points, stakeholder objectives, and scope boundaries.
 * **Functional Requirements Document (FRD):** Mapped functional logic, field mappings, workflow states, and automated trigger conditions
 
 ---
 
-## 🛠️ 4. Tools & Technologies Used
+## 4. Tools & Technologies Used
 
 * **CRM Platform:** Salesforce Service Cloud (Cases, Queues, Assignment Rules, Escalations)
 * **Automation:** Salesforce Flow Builder
