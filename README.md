@@ -1,58 +1,48 @@
-# Salesforce DX Project
+# Deep Query Ask – Case Management System:
 
-Salesforce DX is a development approach that brings source-driven development, team collaboration, and continuous integration to the Salesforce Platform. Instead of working directly in an org through a web browser, you work with metadata as source files in a local DX project, track changes in version control, and deploy through automated processes.
+> Deep Query Ask – Case Management is a Salesforce Service Cloud project designed to standardize and automate customer case management. The project addresses common service challenges such as manual case tracking, limited visibility, inconsistent workload distribution, missing SLA monitoring, and delayed customer communication.
 
-This project template gets you started with the tools and structure you need to build Salesforce applications using source control, scratch orgs, and the Salesforce CLI.
+---
 
-## Prerequisites
+## Quick Links:
 
-Before you start, make sure you have:
+* 🎥 [Watch Project Demo Video](https://drive.google.com/file/d/130M2bfKV4leQtX0cVwDM8rQhlGsmc3zJ/view?usp=sharing)
 
-- **Salesforce CLI** - Download from [developer.salesforce.com/tools/salesforcecli](https://developer.salesforce.com/tools/salesforcecli). See [Install Salesforce CLI](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm) for details.
-- **VS Code with Salesforce Extension Pack** - See [Installation Instructions](https://developer.salesforce.com/docs/platform/sfvscode-extensions/guide/install.html) for details. Includes the Agentforce Vibes extension.
-- **A development org** - Sign up for a free Developer Edition org [here](https://developer.salesforce.com/signup).
-- **Dev Hub enabled** (optional, required to create scratch orgs) - You can enable Dev Hub in your development org under Setup > Dev Hub.  See [Provide Developers Access to Salesforce DX Tools](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_setup_dx_tools.htm).
+* 📄 **[View BRD / FRD Documentation](https://drive.google.com/file/d/1xHUfXWqy87N_-hctoAGukCMQ-r_4qPQT/view?usp=drivesdk)**
 
-## Project Structure
+---
 
-Your DX project follows this structure:
+## 1. Project Objective:
 
-- **`force-app/main/default/`** - Your metadata source files live in this default package directory. You can configure additional package directories in the `sfdx-project.json` file.
-- **`config/`** - Scratch org definitions and project settings
-- **`scripts/`** - Automation scripts for common tasks
-- **`sfdx-project.json`** - Project manifest that defines package directories, namespace, API version, and other project-level settings
+The primary objective is to create a centralized Salesforce-based Case Management solution that manages customer issues across multiple channels while improving operational efficiency, SLA compliance, and management visibility
 
-See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm).
+---
 
-## Get Started
+## Key Features & Configurations:
 
-Ready to start developing? The [Get Started with Salesforce DX](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_get_started_dx.htm) guide walks you through your first project, from creating a scratch org to creating a simple Apex class or LWC to deploying your code to a sandbox.
+- Email-to-Case for automatically creating Cases from customer emails.
+- Web-to-Case for capturing customer issues through a web form.
+- Automated Case Assignment based on Case Type and Priority.
+- Case Lifecycle Management with Status transitions and Validation Rules.
+- SLA & Milestone Tracking using Salesforce Entitlements.
+- Case Escalation for high-priority and at-risk Cases.
+- Reports & Dashboards for operational and executive-level visibility.
+- Security & Access Control using OWD, Role Hierarchy, Profiles, and controlled object access.
 
-## Common Salesforce CLI Commands
+---
 
-Here are common CLI commands that you'll use the most:
+## Business Roles:
 
-- `sf org login web`: Authorize an org
-- `sf org open`: Open your org in a browser
-- `sf org create scratch`: Create a scratch org
-- `sf project deploy start`: Deploy metadata to your org
-- `sf project retrieve start`: Retrieve metadata from your org
-- `sf template generate <artifact>`: Scaffold new components, such as Apex classes and triggers, LWC components, Lightning apps, and more
-- `sf apex <command>`: Run Apex tests, run anonymous Apex blocks, and view logs
-- `sf data <command>`: Work with test data
-- `sf alias <command>`: Manage org aliases
-- `sf config <command>`: Configure CLI settings
+The solution considers different operational personas, including Property Manager, Maintenance Agent, Finance Analyst, and Support Executive/CEO, with access and responsibilities aligned to their business requirements
 
-## Use Agentforce Vibes to Build Lightning Apps
+---
 
-Transform your ideas into custom Lightning apps that extend CRM workflows directly in Lightning Experience. Through natural conversations with Agentforce Vibes, implement custom objects and fields, complex business logic, and dynamic UI components. See [Build a Lightning App Using Agentforce Vibes](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/lexapp-overview.html).
+## Testing:
 
-## Additional Resources
+The project includes User Acceptance Testing (UAT) scenarios covering Web-to-Case, Email-to-Case, automated assignment, and high-priority Case escalation to validate the expected business behavior.
 
-- [Agentforce Vibes Developer Guide](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/einstein-overview.html)
-- [Salesforce CLI Installation Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/)
-- [Salesforce CLI Plugin Development Guide](https://developer.salesforce.com/docs/platform/salesforce-cli-plugin/guide/conceptual-overview.html)
-- [Salesforce VS Code Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
+---
 
+## Outcome:
+
+Overall, the project demonstrates how Business Analysis, Salesforce Service Cloud configuration, Case Management, declarative automation, SLA management, security, and reporting can be combined to build a structured and scalable customer service solution.
