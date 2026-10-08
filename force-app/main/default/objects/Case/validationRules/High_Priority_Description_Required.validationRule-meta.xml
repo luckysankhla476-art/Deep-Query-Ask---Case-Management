@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>High_Priority_Description_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL(Priority, &quot;High&quot;), ISBLANK(Description) )</errorConditionFormula>
+    <errorDisplayField>Description</errorDisplayField>
+    <errorMessage>Description is mandatory for High Priority cases</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority_is_Mandatory_Before_Case_Progre</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISBLANK(TEXT(Priority)), NOT(ISPICKVAL(Status, &quot;New&quot;)) )</errorConditionFormula>
+    <errorDisplayField>Priority</errorDisplayField>
+    <errorMessage>Priority must be selected before progressing the case!</errorMessage>
+</ValidationRule>

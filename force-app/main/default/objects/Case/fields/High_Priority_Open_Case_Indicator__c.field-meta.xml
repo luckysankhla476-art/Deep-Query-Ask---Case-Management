@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>High_Priority_Open_Case_Indicator__c</fullName>
+    <formula>AND( ISPICKVAL(Priority, &quot;High&quot;), NOT(ISPICKVAL(Status, &quot;Closed&quot;)) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>High Priority Open Case Indicator</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
